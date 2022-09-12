@@ -14,6 +14,7 @@ public class InstrumentToRent extends Instrument{
     private int noOfDays;
     private boolean isRented;
 
+
     // The constructor accepts two parameters, which are instrument name and
     // chargePerDay.
     // A call is made to the superclass constructor with one parameter, instrument
@@ -25,8 +26,8 @@ public class InstrumentToRent extends Instrument{
     // false.
 
     public void instrumentToRent(String instrumentName, int chargePerDay){
-        super.getInstrumentName();
-        this.chargePerDay = chargePerDay;
+        // super.getInstrumentName();
+        // this.chargePerDay = chargePerDay;
         
     }
 }
